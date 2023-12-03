@@ -1,0 +1,16 @@
+export enum PackageType {
+    BASIC = 'BASIC',
+    GOOD = 'GOOD',
+    EXCELLENT = 'EXCELLENT',
+}
+
+export enum OfferPackageFeature {
+    /**
+     * Should represent F2F fuel policy on the backend
+     */
+    BEST_FUEL_OPTION = 'BEST_FUEL_OPTION',
+    UNLIMITED_DISTANCE = 'UNLIMITED_DISTANCE',
+    CDW_AND_THEFT_PROTECTION_WITHOUT_LIABILITY = 'CDW_AND_THEFT_PROTECTION_WITHOUT_LIABILITY',
+    GLASS_AND_TIRE_INSURANCE = 'GLASS_AND_TIRE_INSURANCE',
+    UNDERBODY_INSURANCE = 'UNDERBODY_INSURANCE',
+}

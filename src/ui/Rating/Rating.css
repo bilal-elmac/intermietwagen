@@ -1,0 +1,15 @@
+.hc-results-view__rating-stars {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: .5rem
+}
+
+.hc-results-view__rating-stars svg {
+    font-size: .8125rem !important
+}
+
+@media (min-width:768px) {
+    .hc-results-view__rating-stars {
+        justify-content: flex-start
+    }
+}
